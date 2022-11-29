@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import Joke from './Joke';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Marvel from './Marvel';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Marvel />
+    <Marvel/>
   </React.StrictMode>
 );
 
