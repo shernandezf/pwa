@@ -4,8 +4,10 @@ import './index.css';
 //import Joke from './Joke';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Marvel from './Marvel';
+import Examen from './examen';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
